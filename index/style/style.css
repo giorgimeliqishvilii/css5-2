@@ -1,90 +1,142 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    background-color: #07081A;
-}
-
-header {
+body{
     display: flex;
+    background: #07081A;
+    flex-direction: column;
+}
+.mainWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
     justify-content: center;
-    padding-top: 28px;
-
-}
-
-.headerdiv {
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1040px;
     width: 100%;
 }
-
-.navbar {
+header{
     display: flex;
-    justify-content: space-around;
-    color: white;
-    list-style: none;
+    width: 100%;
+    justify-content: center;
+    padding-top: 28px;  
+}
+.headerContainer{
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+}
+.cloudoContainer{
+    display: flex;
+    align-items: flex-start;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.navContainer{
+    display: flex;
     gap: 16px;
 }
-
-.home {
+.homeLink{
     color: #8CE900;
 }
-
-main {
-    display: flex;
-    justify-content: center;
+.otherLinks{
+    color:#FFF;
 }
-
-.maindiv {
+main{
     display: flex;
-    justify-content: space-around;
-    padding-top: 64px;
-    color: white;
-    max-width: 1040px;
     width: 100%;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.mainContainer{
+    display: flex;
+    width: 1040px;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
 }
 
-.bestP {
-    display: flex;
-    max-width: 583px;
+.skinTradeContainer{
+    display: flex ;
     width: 100%;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h1{
     font-size: 48px;
+    color: #FFF;
 }
-
-.horseimg {
-    width: 314px;
-}
-
-.projectdiv {
+.projectCompetedContainer{
     display: flex;
-    justify-content: space-around;
-    max-width: 1040px;
-    width: 100%;
     background-color: #242642;
-    margin-top: 64px;
+    width: 100%;
+    justify-content: space-between;
     padding: 40px 72px;
 }
-
-.projectp {
-    width: 168px;
-    padding-top: 10px;
+.firstProject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secondProject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thirdProject{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projectNumber{
+    font-size: 56px;
+    color: #8CE900;
+    margin-bottom: 10px;
+}
+.projectP{
     color: #C0C0C0;
     font-size: 20px;
 }
-
-.secondprojectp {
-    width: 168px;
-    padding-top: 10px;
-    color: #C0C0C0;
-    font-size: 20px;
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
 }
+.footerWrapper{
+    display: flex;
+    width: 1040px;
+    justify-content: space-between;
+}
+.cloudoFooter{
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    justify-content: center;
+}
+.designP{
+    color: #C0C0C0;
+    font-size: 14px;
+    margin-top: 16px;
+}
+.navFooter{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+.footerP{
+    color: #FFF;
+    font-size: 16px;
 
-.secondicon {
-    
 }
